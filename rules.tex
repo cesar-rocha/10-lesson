@@ -32,18 +32,17 @@
 
 \section*{Introduction}
 
-There are many kinds of lessons, both formal and informal, from seconds long to lifelong.
-Most people have sat (or suffered) through hundreds of these,
-but have never been shown how to design ones that are effective.
-These ten simple rules for creating lessons are:
+There are many kinds of lessons, both formal and informal, from seconds long to
+lifelong.  Most people have sat (or suffered) through hundreds of these, but
+have never been shown how to design ones that are effective.  These ten simple
+rules for creating lessons are:
 
 \begin{itemize}
 
 \item based on current educational research \cite{Nuth2007,Ambr2010,Brow2018},
 
-\item filtered by what can be done by non-specialists
-  with limited time and resources \cite{Hust2012,Lang2016,Rice2018},
-  and
+\item filtered by what can be done by non-specialists with limited time and
+  resources \cite{Hust2012,Lang2016,Rice2018}, and
 
 \item prioritized by experience teaching and training people to teach together
   \cite{Deve2018,Wils2016,Wils2018}.
@@ -105,7 +104,7 @@ students might be:
   spoken conversation (especially if it involves a lot of new jargon).
 
 \end{enumerate}
-  
+
 Rather than writing new personas for every lesson or course, instructors often
 create and share a handful that cover everyone they hope to teach, then pick a
 few from that set to describe who particular material is intended for.  Used
@@ -151,7 +150,11 @@ something that they couldn't do without the desired understanding.
 Finally, creating summative assessments early can help authors stay connected to
 their learners' goals.  Each summative assessment should embody an
 \emph{authentic task}, i.e., something that an actual learner actually wants to
-do.  Continuing with the statistical example above, calculating a regression
+do.  Early on, authentic tasks should be learners' own goals; as they advance
+and are able to make sense of generalizations, these tasks may be extensions or
+generalizations of earlier solutions.
+
+Continuing with the statistical example above, calculating a regression
 coefficient may be an authentic task for someone who already knows enough
 statistics to understand what such coefficients are good for.  If the intended
 learners are not yet that experienced (which you will know from your personas),
@@ -273,13 +276,115 @@ to change their mind if they were actually wrong.  However, it turns out that
 the opposite is true: the more confident someone is that they were right, the
 more likely they are not to repeat the error if they are corrected.
 
-\rulemajor{Use Worked Examples}
+\rulemajor{Use Worked Examples---Up to a Point}
 
-\fixme{worked examples}
+A worked example is a step-by-step demonstration of how to solve a problem or do
+some task.  By giving the steps in order, the instructor reduces the learner's
+cognitive load, which accelerates learning \cite{Atki2000,Paas2003}.
+
+However, worked examples become less effective as learners acquire more
+expertise \cite{Kaly2003,Kaly2007}, a phenomenon known as the \emph{expertise
+  reversal effect}.  In brief, as learners build their own mental models of what
+to do and how to do it, the detailed step-by-step breakdown of a worked example
+starts to get in the way.  This again is a reason to develop learner personas
+before writing lessons, and is also the reason why tutorials and manual pages
+both need to exist: what's appropriate for a newcomer is frustrating for an
+expert, while what jogs an expert's memory may be incomprehensible to a novice.
+
+One powerful way to use worked examples is to present a series of \emph{faded
+  examples} \cite{Schw2009}.  The first example in the series is a complete use
+of a problem-solving strategy; each subsequent example gives the learner more
+blanks to fill in. TThe material that isn't blank is often referred to as
+\emph{scaffolding}, since it serves the same purpose as the scaffolding set up
+temporarily at a building site.
+
+Faded examples can be used in almost every kind of teaching, from sport and
+music to contract law. Someone teaching Python programming might use them by
+first explaining how to calculate the total length of a list of words:
+
+\begin{verbatim}
+# total_length(["red", "green", "blue"]) => 12
+define total_length(list_of_words):
+    total = 0
+    for each word in list_of_words:
+        total = total + word.length()
+    return total
+\end{verbatim}
+
+and then asking learners to fill in the blanks in this (which focuses their
+attention on control structures):
+
+\begin{verbatim}
+# word_lengths(["red", "green", "blue"]) => [3, 5, 4]
+define word_lengths(list_of_words):
+    list_of_lengths = []
+    for each ____ in ____:
+        list_of_lengths.append(____)
+    return list_of_lengths
+\end{verbatim}
+
+The next problem might be this (which focuses their attention on updating the
+final result):
+
+\begin{verbatim}
+# join_all(["red", "green", "blue"]) => "redgreenblue"
+define join_all(list_of_words):
+    joined_words = ____
+    for each ____ in ____:
+        ____
+    return joined_words
+\end{verbatim}
+
+Learners would finally be asked to write an entire function on their own:
+
+\begin{verbatim}
+# make_acronym(["red", "green", "blue"]) => "RGB"
+define make_acronym(list_of_words):
+    ____
+\end{verbatim}
+
+At each step, learners have one new problem to tackle, which is less
+intimidating than a blank screen or a blank sheet of paper.  Faded examples also
+encourage learners (and instructors) to think about the similarities and
+differences between various approaches.
 
 \rulemajor{Use Concreteness Fading}
 
-\fixme{concreteness fading}
+Worked examples are themselves an example of \emph{concreteness fading}
+\cite{Gold2005,Fyfe2014}, which describes the process of starting lessons with
+things that are specific or tangible and then explicitly and gradually
+transitioning to more abstract and general concepts.  Concreteness fading:
+
+\begin{enumerate}
+
+\item helps learners understand abstract symbols in terms of well-understood
+  concrete objects,
+
+\item lets them leverage personal experience to ground abstract thinking,
+
+\item gives them a store of examples and mental images that they can fall back
+  on when abstract symbols and reasoning fail, and
+
+\item help learners figure out what is specific to particular examples and what
+  is generalizable across all problems of a certain kind.
+
+\end{enumerate}
+
+One way to remember this strategy is the acronym PETE (Problem, Explanation,
+Theory, Example), which encourages instructors to:
+
+\begin{itemize}
+
+\item describe an authentic problem that the lesson will solve,
+
+\item work through a solution to that problem,
+
+\item explain the general theory that underpins that solution, and
+
+\item work through a second example so that learners will understand which parts
+  generalize.
+
+\end{itemize}
 
 \rulemajor{Show How to Detect, Diagnose, and Correct Common Mistakes}
 
