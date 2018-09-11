@@ -14,6 +14,7 @@ pdf :
 	${BIBTEX} ${STEM}
 	${LATEX} ${STEM}
 	${LATEX} ${STEM}
+	${LATEX} ${STEM}
 
 ## clean      : clean up junk files.
 clean :
