@@ -49,10 +49,6 @@ rules for creating lessons are:
 
 \end{itemize}
 
-\section*{A Little Bit of Theory}
-
-\fixme{summarize theory}
-
 \rulemajor{Use Learner Personas to Define Your Audience}
 
 The first step in creating a good lesson is figuring out who the audience is.
@@ -229,12 +225,13 @@ on the coefficient in order to answer the deeper question, ``Why bother?''
 
 \rulemajor{Write Formative Assessments for Pacing, Design, Preparation, and Reinforcement}
 
-The counterpoint to summative assessment is \emph{formative assessment}, which is
-checks used while learning is taking place to form (or shape) the teaching.
+The counterpoint to summative assessment is \emph{formative assessment}, which
+is checks used while learning is taking place to form (or shape) the teaching.
 Asking learners for questions is a common, but relatively ineffective, kind of
-formative assessment.  What works better is to have them solve a short
-problem---one that can be done in 1--2 minutes so as not to derail the flow of
-the lesson.
+formative assessment.  What works better is to give them a short problem---one
+that can be done in 1--2 minutes so as not to derail the flow of the lesson, and
+which will help them uncover and confront their misconceptions about the topic
+being taught.
 
 Checking in with learners this way every 10--15 minutes accomplishes several
 things:
@@ -342,7 +339,7 @@ to change their mind if they were actually wrong.  However, it turns out that
 the opposite is true: the more confident someone is that they were right, the
 more likely they are not to repeat the error if they are corrected.
 
-\rulemajor{Use Worked Examples---Up to a Point}
+\rulemajor{Use Worked Examples and Concreteness Fading}
 
 A worked example is a step-by-step demonstration of how to solve a problem or do
 some task.  By giving the steps in order, the instructor reduces the learner's
@@ -413,8 +410,6 @@ At each step, learners have one new problem to tackle, which is less
 intimidating than a blank screen or a blank sheet of paper.  Faded examples also
 encourage learners (and instructors) to think about the similarities and
 differences between various approaches.
-
-\rulemajor{Use Concreteness Fading}
 
 Worked examples are themselves an example of \emph{concreteness fading}
 \cite{Gold2005,Fyfe2014}, which describes the process of starting lessons with
@@ -598,9 +593,73 @@ burden on people who already have to work harder because of the inequities they
 face, and (not coincidentally) gives those who benefit from the current
 arrangements an excuse not to look at themselves too closely.
 
+\rulemajor{Design for Collaboration with Other Instructors}
+
+Instructors often scour the web for ideas, and it's common for people to inherit
+courses from previous instructors.  What is far less common is collaborative
+lesson construction, i.e., people taking material, improving it, and then
+offering their changes back to the community.  This model has served the open
+source software community well, and as \cite{Deve2018} describes, it works
+equally well for lessons---provided that materials are designed to make
+fine-grained collaboration easy.
+
+The best tool we have today for large-scale ad hoc collaboration is version
+control.  Originally developed by programmers for managing the source code of
+large projects, it gives each contributor their own working copy of the
+material, but provides a way for them to submit changes to a central store,
+have them reviewed, make further modifications, and finally merge them into
+the core to strengthen it \cite{Blis2016}.
+
+Version control's greatest strengths are its scalability (some projects have had
+thousands of contributors) and its openness (anyone can offer changes).  Its
+greatest weakness is that widely-used systems like Git are designed to handle
+text files, and struggle with structured document formats like Microsoft Word or
+PowerPoint.  As a result, people who wish to use it for lessons usually have to
+rely on LateX or some variation of HTML or Markdown for their notes and slides,
+which is a larger barrier to uptake than many experts realize (or are willing to
+acknowledge).
+
+One key enabler of collaborative lesson construction is licensing.  We strongly
+recommend using one of the Creative Commons family of licenses, since they have
+been carefully vetted and are widely understood.
+
 \section*{Conclusion}
 
-\fixme{Conclusion}
+Following the ten rules laid out above doesn't guarantee that your lessons will
+be great, but it will help ensure that they aren't bad.  When it comes time to
+put them into practice, we recommend following something like the reverse design
+process developed independently by \cite{Wigg2005,Bigg2011,Fink2013}:
+
+\begin{enumerate}
+
+\item Figure out who your learners are and what their goals are.
+
+\item Create the summative assessment for the lesson to give yourself a target.
+
+\item Itemize the knowledge and skills that assessment relies on, and create
+  formative assessments to check on each while learning is taking place.
+
+\item Order those formative assessments in a way that respects their
+  dependencies, i.e., so that they build on each other.
+
+\item Estimate the time required to cover each topic and perform its related
+  formative assessment, then cut material that there isn't time for.
+
+\item Write lessons to connect each formative assessment to the next (which is
+  usually much easier than writing an entire lesson at once).
+
+\item Double-check your language and examples to ensure that they address
+  your learners' goals and won't demotivate them.
+
+\item Derive learning objectives and key points from the lesson to share with
+  your learners and co-instructors.  The former make the lesson findable, while
+  the latter give you and your co-instructors a quick way to check what the
+  lesson actually covers.
+
+\item Put everything online for other people to download, modify, and contribute
+  to.
+  
+\end{enumerate}
 
 \bibliography{rules}
 
