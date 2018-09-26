@@ -1,7 +1,7 @@
 \documentclass[10pt,letterpaper]{article}
 \include{settings}
 
-%% Include all macros below
+%% Define per-paper macros.
 \newcommand{\fixme}[1]{\textsc{\textbf{FIXME: {#1}}}}
 \newcommand{\withurl}[2]{{#1}\footnote{\texttt{#2}}}
 \newcommand{\rulemajor}[1]{\section{#1}}
@@ -24,11 +24,19 @@
 
 \section*{Abstract}
 
-\fixme{abstract}
+We present ten rules for building effective lessons that are grounded in
+empirical research on pedagogy and cognitive psychology, and which we have found
+to be practically useful in both classroom and free-range settings.
 
 \section*{Author Summary}
 
-\fixme{author summary}
+As a species, we know as much about teaching and learning as we do about public
+health, but most people who teach at the post-secondary level are never
+introduced to even the basics of evidence-based pedagogy.  Knowing just a few
+key facts will help you build more effective lessons in less time and with less
+pain, and will also make those lessons easier for your peers to find and re-use.
+This paper presents ten rules that you can apply immediately and explains why
+they work.
 
 \section*{Introduction}
 
@@ -39,15 +47,54 @@ rules for creating lessons are:
 
 \begin{itemize}
 
-\item based on current educational research \cite{Nuth2007,Ambr2010,Brow2018},
+\item based on current educational research \cite{Nuth2007,Ambr2010,DeBr2015,Dida2016,Brow2018,Mark2018},
 
 \item filtered by what can be done by non-specialists with limited time and
-  resources \cite{Hust2012,Lang2016,Rice2018}, and
+  resources \cite{Hust2012,Lang2016}, and
 
 \item prioritized by experience teaching and training people to teach together
   \cite{Deve2018,Wils2016,Wils2018}.
 
 \end{itemize}
+
+The key insight that underpins all of these rules is that \emph{learning is both
+  a cognitive and a social activity}.  On the cognitive side, we can model
+learning as shown in Figure~\ref{cognitive-model}.
+
+\begin{figure}[h]
+\includegraphics[width=12cm]{cognitive-model.pdf}
+\caption{A Cognitive Model of Learning (adapted from \cite{Maye2009}).}
+\label{cognitive-model}
+\end{figure}
+
+Incoming information (the lesson) passes through a \emph{sensory register} that
+has physically separate channels for visual and auditory information and is
+stored in \emph{short-term memory}, where it is used to construct a \emph{verbal
+  model} (sometimes also called a \emph{linguistic model}) and a separate
+\emph{visual model}.  These are then integrated and stored in \emph{long-term
+  memory} as facts and relationships.  If those facts and relationships are
+strengthened by use, they can later be recalled and applied, and we say that
+learning has taken place.
+
+One key feature of this model is that short-term memory is very limited:
+\cite{Mill1956} famously estimated its size as $7{\pm}2$ items, and more
+recent studies place the figure closer to 4.  If too much information is
+presented too quickly, material spills out of short-term memory before it can be
+integrated and stored, and learning does not occur.
+
+A second key feature is that the brain's processing power is also very limited.
+Effort spent identifying key facts or reconciling the linguistic and visual
+input streams reduces the power available for organizing new information and
+connecting it to what's already present.
+
+Learning is also a social activity.  In \cite{Litt2004}, for example, Kenneth
+Wesson wrote, ``If poor inner-city children consistently outscored children from
+wealthy suburban homes on standardized tests, is anyone naive enough to believe
+that we would still insist on using these tests as indicators of success?''
+Learners who feel motivated will learn more; learners who feel that they may
+not be judged on their merits, or who have experienced unequal treatment in
+the past, will learn less, and lesson designers must take this into account
+if they are to create effective lessons.
 
 \rulemajor{Use Learner Personas to Define Your Audience}
 
@@ -114,7 +161,7 @@ different backgrounds, different capabilities, and different ambitions than you;
 personas help you keep your lessons focused on what they need rather than on
 what your younger self might have wanted.
 
-\rulemajor{Encourage Effective Learning Strategies}
+\rulemajor{Design for Effective Learning Strategies}
 
 Some learning strategies are provably more effective than others
 \cite{Rohr2015,Kang2016,Miya2018}, so lessons should be designed to encourage
@@ -271,6 +318,43 @@ things:
   material as can plausibly be covered.
 
 \end{description}
+
+\cite{Broo2016,Majo2015,Rice2018} offer inspiration for a wide variety of
+different kinds of summative and formative assessment exercises.
+
+\rulemajor{Integrate Visual and Linguistic Information}
+
+Research by Mayer and colleagues on the split-attention effect is closely
+related to cognitive load theory \cite{Maye2003}.  As described in the
+introduction, linguistic and visual input are processed by different parts of
+the human brain, and linguistic and visual memories are stored separately as
+well. This means that correlating linguistic and visual streams of information
+takes cognitive effort: when someone reads something while hearing it spoken
+aloud, their brain can't help but check that it's getting the same information
+on both channels.
+
+Learning is therefore more effective when information is presented
+simultaneously in two different channels, but when that information is
+complementary rather than redundant. For example, people generally find it
+harder to learn from a video that has both narration and on-screen captions than
+from one that has either the narration or the captions but not both, because
+some of their attention has to be devoted to checking that the narration and the
+captions agree with each other. Two notable exceptions to this are people who do
+not yet speak the language well and people with hearing exercises or other
+special needs, both of whom may find that the extra effort is a net benefit.
+
+This is why it's more effective to draw a diagram piece by piece while teaching
+rather than to present the whole thing at once. If parts of the diagram appear
+at the same time as things are being said, the two will be correlated in the
+learner's memory. Pointing at part of the diagram later is then more likely to
+trigger recall of what was being said when that part was being drawn.
+
+The split-attention effect does \emph{not} mean that learners shouldn't try to
+reconcile multiple incoming streams of information---after all, this is
+something they have to do in the real world \cite{Atki2000}. Instead, it means
+that instruction shouldn't require it while people are mastering unit skills;
+instead, using multiple sources of information simultaneously should be treated
+as a separate learning task.
   
 \rulemajor{Design for Peer Instruction}
 
@@ -593,36 +677,6 @@ burden on people who already have to work harder because of the inequities they
 face, and (not coincidentally) gives those who benefit from the current
 arrangements an excuse not to look at themselves too closely.
 
-\rulemajor{Design for Collaboration with Other Instructors}
-
-Instructors often scour the web for ideas, and it's common for people to inherit
-courses from previous instructors.  What is far less common is collaborative
-lesson construction, i.e., people taking material, improving it, and then
-offering their changes back to the community.  This model has served the open
-source software community well, and as \cite{Deve2018} describes, it works
-equally well for lessons---provided that materials are designed to make
-fine-grained collaboration easy.
-
-The best tool we have today for large-scale ad hoc collaboration is version
-control.  Originally developed by programmers for managing the source code of
-large projects, it gives each contributor their own working copy of the
-material, but provides a way for them to submit changes to a central store,
-have them reviewed, make further modifications, and finally merge them into
-the core to strengthen it \cite{Blis2016}.
-
-Version control's greatest strengths are its scalability (some projects have had
-thousands of contributors) and its openness (anyone can offer changes).  Its
-greatest weakness is that widely-used systems like Git are designed to handle
-text files, and struggle with structured document formats like Microsoft Word or
-PowerPoint.  As a result, people who wish to use it for lessons usually have to
-rely on LateX or some variation of HTML or Markdown for their notes and slides,
-which is a larger barrier to uptake than many experts realize (or are willing to
-acknowledge).
-
-One key enabler of collaborative lesson construction is licensing.  We strongly
-recommend using one of the Creative Commons family of licenses, since they have
-been carefully vetted and are widely understood.
-
 \section*{Conclusion}
 
 Following the ten rules laid out above doesn't guarantee that your lessons will
@@ -660,6 +714,38 @@ process developed independently by \cite{Wigg2005,Bigg2011,Fink2013}:
   to.
   
 \end{enumerate}
+
+We also recommend that lessons be designed for sharing with other instructors.
+Instructors often scour the web for ideas, and it's common for people to inherit
+courses from previous instructors.  What is far less common is collaborative
+lesson construction, i.e., people taking material, improving it, and then
+offering their changes back to the community.  This model has served the open
+source software community well, and as \cite{Deve2018} describes, it works
+equally well for lessons---provided that materials are designed to make
+fine-grained collaboration easy.
+
+The best tool we have today for large-scale ad hoc collaboration is version
+control.  Originally developed by programmers for managing the source code of
+large projects, it gives each contributor their own working copy of the
+material, but provides a way for them to submit changes to a central store,
+have them reviewed, make further modifications, and finally merge them into
+the core to strengthen it \cite{Blis2016}.
+
+Version control's greatest strengths are its scalability (some projects have had
+thousands of contributors) and its openness (anyone can offer changes).  Its
+greatest weakness is that widely-used systems like Git are designed to handle
+text files, and struggle with structured document formats like Microsoft Word or
+PowerPoint.  As a result, people who wish to use it for lessons usually have to
+rely on LateX or some variation of HTML or Markdown for their notes and slides,
+which is a larger barrier to uptake than many experts realize (or are willing to
+acknowledge).  If any reader wishes to be rich, famous, and popular (or at least
+popular), building tools that enable version control tools to work with popular
+office document formats would do more to help improve instructional quality than
+any number of seminars on effective practices{\ldots}
+
+Finally, one key enabler of collaborative lesson construction is licensing.  We
+strongly recommend using one of the Creative Commons family of licenses, since
+they have been carefully vetted and are widely understood.
 
 \bibliography{rules}
 
