@@ -1,0 +1,75 @@
+Response to all reviewers:
+
+Thank you very much for your feedback - I appreciate your help making this paper
+stronger.  As well as replacing the Python example with some high school
+algebra, I have also rewritten the conclusion, as I am less sanguine about the
+use of Git for lessons than I was a year ago.
+
+Best regards,
+Greg Wilson
+
+Responses to Reviewer #1:
+
+1.  I agree that it's very difficult to incorporate aspects of many different
+    learners into a single persona; this is why I recommend creating personas
+    (plural).  I also agree that it's worth spending time reading biographies of
+    actual learners if they're available, but (a) they may not be, and (b) they
+    often aren't before the lesson is delivered for the first time.
+
+2.  "Having learners explain things to themselves _and others_" - thank you,
+    this has been incorporated.
+
+3.  Example of dual coding: the following has been added:
+
+    This is one of the many reasons that reading slides verbatim is ineffective:
+    not only is the reader not adding value, they are actually adding to the
+    load on learners whose brains are trying to check that the spoken and
+    written inputs are consistent.
+
+4.  Regarding summative assessment and lesson goals, the wording has been
+    changed to:
+
+    a much better way to set the goal for that lesson would be to define an
+    exercise such as:
+
+5.  I agree the sentence was unclear; it has been changed to:
+
+    If the intended learners are not yet that experienced, this exercise could
+    be extended to have them make some sort of judgment based on the regression
+    coefficients to exercise higher-order thinking.
+
+6.  The use of "that" is deliberate - in my experience, breaking things down
+    this way almost always shows that the lesson author is trying to do too
+    much.
+
+7.  I do not understand what is meant by a "class example".
+
+8.  Reference to personas removed (seems redundant on re-reading).
+
+9.  Python example replaced - thank you.
+
+10. The summary of Lachney's work has been rewritten - I hope the new version is
+    clearer.  I have also moved the discussion of deficit model to be nearer the
+    start of the section.
+
+11. I chose not to stress formal learning objectives because I have not found
+    them as helpful at the level of individual teachers developing specific
+    lessons as the other topics included.  I agree that they are very important
+    when working at a larger scale (e.g., integrating lessons into larger
+    programs or checking conformance with curriculum guidelines).
+
+12. I chose not to mention the KSA framework because I feel the reverse design
+    process is more actionable for most teachers.
+
+Responses to Reviewer #2:
+
+1.  The Python example has been replaced with one that I hope will be more
+    accessible to this journal's audience - feedback would be appreciated.
+
+2.  Thank you for spotting the forward reference - I've added a reference to the
+    rule's name.
+
+Responses to Reviewer #3:
+
+Thank you very much for the re-wording - it has been included along with a
+forward reference to the appropriate rules.

@@ -86,14 +86,16 @@ Effort spent identifying key facts or reconciling the linguistic and visual
 input streams reduces the power available for organizing new information and
 connecting it to what's already present.
 
-Learning is also a social activity.  In \cite{Litt2004}, for example, Kenneth
+Learning is also a social activity. Learners who feel motivated will learn more;
+learners who feel that they may not be judged on their merits, or who have
+experienced unequal treatment in the past, will learn less (see the rule
+``Motivate and Avoid Demotivating''). In \cite{Litt2004}, for example, Kenneth
 Wesson wrote, ``If poor inner-city children consistently outscored children from
 wealthy suburban homes on standardized tests, is anyone naive enough to believe
 that we would still insist on using these tests as indicators of success?''
-Learners who feel motivated will learn more; learners who feel that they may
-not be judged on their merits, or who have experienced unequal treatment in
-the past, will learn less, and lesson designers must take this into account
-if they are to create effective lessons.
+Lesson designers must take the social aspects of learning into account if they
+are to create effective lessons; we discuss this further in the final rule
+(``Make Lessons Inclusive'').
 
 \rulemajor{Use Learner Personas to Define Your Audience}
 
@@ -195,18 +197,18 @@ are:
   more links between different topics, which in turn increases retention and
   recall.
 
-\item[Elaboration:] Having learners explain things to themselves as they go
-  along improves understanding and recall. One way to do this is to follow up
-  each answer on a practice quiz with an explanation of why that answer is
-  correct, or conversely with an explanation of why some other plausible answer
-  isn't. Another is to have learners explain how a new idea is similar to or
-  different from one they have seen previously.
+\item[Elaboration:] Having learners explain things to themselves and others as
+  they go along improves understanding and recall. One way to do this is to
+  follow up each answer on a practice quiz with an explanation of why that
+  answer is correct, or conversely with an explanation of why some other
+  plausible answer isn't. Another is to have learners explain how a new idea is
+  similar to or different from one they have seen previously.
 
 \item[Concrete Examples:] One specific form of elaboration that is useful enough
   to deserve its own heading is the use of concrete examples.  As discussed in
-  the rule on concreteness fading, every statement of a general principle should
-  be accompanied by one or more examples of its use, or conversely take each
-  particular problem and list the general principles it
+  the rule ``Use Worked Examples and Concreteness Fading'', every statement of a
+  general principle should be accompanied by one or more examples of its use, or
+  conversely take each particular problem and list the general principles it
   embodies. \cite{Raws2014} found that interleaving examples and definitions
   made it more likely that learners would remember the latter correctly.
 
@@ -222,6 +224,10 @@ are:
   learning is more effective when the same information is \emph{not} presented
   simultaneously in two different channels \cite{Maye2003,Maye2009}, because
   then the brain has to expend effort to check the channels against each other.
+  This is one of the many reasons that reading slides verbatim is ineffective:
+  not only is the reader not adding value, they are actually adding to the load
+  on learners whose brains are trying to check that the spoken and written
+  inputs are consistent.
 
 \end{description}
 
@@ -233,7 +239,8 @@ piece of music, a written examination, or something else of that kind.
 Summative assessments are usually used as gates (e.g., ``Is it now safe for this
 person to drive on their own?''), but they are also a good way to clarify the
 learning objectives for a lesson.  ``Understand linear regression'' is
-hopelessly vague; a much better way to set the goal for a lesson is:
+hopelessly vague; a much better way to set the goal for that lesson would
+be to define an exercise such as:
 
 \begin{quotation}
 
@@ -265,9 +272,9 @@ generalizations of earlier solutions.
 Continuing with the statistical example above, calculating a regression
 coefficient may be an authentic task for someone who already knows enough
 statistics to understand what such coefficients are good for.  If the intended
-learners are not yet that experienced (which you will know from your personas),
-this exercise could be extended to have them make some sort of judgment based
-on the coefficient in order to answer the deeper question, ``Why bother?''
+learners are not yet that experienced, this exercise could be extended to have
+them make some sort of judgment based on the regression coefficients to exercise
+higher-order thinking.
 
 \rulemajor{Write Formative Assessments for Pacing, Design, Preparation, and Reinforcement}
 
@@ -432,10 +439,9 @@ However, worked examples become less effective as learners acquire more
 expertise \cite{Kaly2003,Kaly2007}, a phenomenon known as the \emph{expertise
   reversal effect}.  In brief, as learners build their own mental models of what
 to do and how to do it, the detailed step-by-step breakdown of a worked example
-starts to get in the way.  This again is a reason to develop learner personas
-before writing lessons, and is also the reason why tutorials and manual pages
-both need to exist: what's appropriate for a newcomer is frustrating for an
-expert, while what jogs an expert's memory may be incomprehensible to a novice.
+starts to get in the way.  This is why tutorials and manual pages both need to
+exist: what's appropriate for a newcomer is frustrating for an expert, while
+what jogs an expert's memory may be incomprehensible to a novice.
 
 One powerful way to use worked examples is to present a series of \emph{faded
   examples} \cite{Schw2009}.  The first example in the series is a complete use
@@ -445,51 +451,46 @@ blanks to fill in. The material that isn't blank is often referred to as
 temporarily at a building site.
 
 Faded examples can be used in almost every kind of teaching, from sport and
-music to contract law. Someone teaching Python programming might use them by
-first explaining how to calculate the total length of a list of words:
+music to contract law. Someone teaching high school algebra might use them
+by first solving this equation for $x$:
 
-\begin{verbatim}
-# total_length(["red", "green", "blue"]) => 12
-define total_length(list_of_words):
-    total = 0
-    for each word in list_of_words:
-        total = total + word.length()
-    return total
-\end{verbatim}
+\begin{eqnarray*}
+(4x + 8) / 2 & = & 5 \\
+4x + 8 & = & 2 * 5 \\
+4x + 8 & = & 10 \\
+4x & = & 10 - 8 \\
+4x & = & 2 \\
+x & = & 2/4 \\
+x & = & 1/2
+\end{eqnarray*}
 
-and then asking learners to fill in the blanks in this (which focuses their
-attention on control structures):
+and then asking learners to fill in the blanks in this:
 
-\begin{verbatim}
-# word_lengths(["red", "green", "blue"]) => [3, 5, 4]
-define word_lengths(list_of_words):
-    list_of_lengths = []
-    for each ____ in ____:
-        list_of_lengths.append(____)
-    return list_of_lengths
-\end{verbatim}
+\begin{eqnarray*}
+(3x - 1) * 3 & = & 12 \\
+3x - 1 & = & \rule{2em}{0.15mm}~/~\rule{2em}{0.15mm} \\
+3x - 1 & = & 4 \\
+3x & = & 4~\rule{2em}{0.15mm}~1 \\
+3x & = & \rule{2em}{0.15mm} \\
+x & = & \rule{2em}{0.15mm}~/~3
+\end{eqnarray*}
 
-The next problem might be this (which focuses their attention on updating the
-final result):
+The next problem might be this:
 
-\begin{verbatim}
-# join_all(["red", "green", "blue"]) => "redgreenblue"
-define join_all(list_of_words):
-    joined_words = ____
-    for each ____ in ____:
-        ____
-    return joined_words
-\end{verbatim}
+\begin{eqnarray*}
+(5x + 1) * 3 & = & 4 \\
+5x + 1 & = & \rule{2em}{0.15mm} \\
+5x & = & \rule{2em}{0.15mm} \\
+x & = & \rule{2em}{0.15mm} \\
+\end{eqnarray*}
 
-Learners would finally be asked to write an entire function on their own:
+Learners would finally be asked to solve an equation entirely on their own:
 
-\begin{verbatim}
-# make_acronym(["red", "green", "blue"]) => "RGB"
-define make_acronym(list_of_words):
-    ____
-\end{verbatim}
+\begin{eqnarray*}
+(2x + 7) / 4 & = & 1
+\end{eqnarray*}
 
-At each step, learners have one new problem to tackle, which is less
+At each step, learners have a slightly larger problem to solve, which is less
 intimidating than a blank screen or a blank sheet of paper.  Faded examples also
 encourage learners (and instructors) to think about the similarities and
 differences between various approaches.
@@ -626,6 +627,13 @@ welcoming to women, under-represented racial or ethnic groups, people with
 various sexual orientations, the elderly, the physically challenged, the
 economically disadvantaged, and others.
 
+The most important step is to stop thinking in terms of a \emph{deficit model},
+i.e., to stop thinking that the members of marginalized groups lack something
+and are therefore responsible for not getting ahead. Believing that puts the
+burden on people who already have to work harder because of the inequities they
+face, and (not coincidentally) gives those who benefit from the current
+arrangements an excuse not to look at themselves too closely.
+
 One axis of inclusive lesson design is physical: provide descriptive text for
 images and videos to help the visually challenged, closed captions for videos to
 help those with hearing challenges, and so on.  Another axis is social:
@@ -647,34 +655,21 @@ help those with hearing challenges, and so on.  Another axis is social:
 
 Committing fully to inclusive teaching may mean fundamentally rethinking
 content.  For example, \cite{Lach2018} explored two strategies for making
-computing education more culturally inclusive:
+computing education more culturally inclusive, each of which has its own traps
+for the unwary.  The first strategy, \emph{community representation}, highlights
+students' social identities, histories, and community networks using
+after-school mentors or role models from students' neighborhoods, or activities
+that use community narratives and histories as a foundation for a computing
+project.  The major risk is shallowness, e.g., using computers to build
+slideshows rather than do any real computing.
 
-\begin{description}
-
-\item[Community representation] highlights students' social identities,
-  histories, and community networks using after-school mentors or role models
-  from students' neighborhoods, or activities that use community narratives and
-  histories as a foundation for a computing project.
-
-\item[Computational integration] incorporates ideas from the learner's
-  community, e.g., reverse engineering indigenous graphic designs in a visual
-  programming environment.
-
-\end{description}
-
-The major risk of the community representation approach is shallowness, e.g.,
-using computers to build slideshows rather than do any real computing.  The
-major risk with computational integration is cultural appropriation, e.g., using
-practices without acknowledging origins. When in doubt, ask your learners and
-members of their community what they think you ought to do and give them control
-over content and direction.
-
-The most important step is to stop thinking in terms of a \emph{deficit model},
-i.e., to stop thinking that the members of marginalized groups lack something
-and are therefore responsible for not getting ahead. Believing that puts the
-burden on people who already have to work harder because of the inequities they
-face, and (not coincidentally) gives those who benefit from the current
-arrangements an excuse not to look at themselves too closely.
+The second strategy, \emph{computational integration}, incorporates ideas from
+the learner's community, e.g., by reverse engineering indigenous graphic designs
+in a visual programming environment.  The major risk here is cultural
+appropriation, e.g., using practices without acknowledging origins.  No matter
+which strategy is chosen, the first steps should always be to ask your learners
+and members of their community what \emph{they} think you ought to do, and to
+give them control over content and direction.
 
 \section*{Conclusion}
 
@@ -721,30 +716,16 @@ lesson construction, i.e., people taking material, improving it, and then
 offering their changes back to the community.  This model has served the open
 source software community well, and as \cite{Deve2018} describes, it works
 equally well for lessons---provided that materials are designed to make
-fine-grained collaboration easy.
+fine-grained collaboration easy.  Unfortunately, widely-used systems like Git
+are designed to handle text files, and struggle with structured document formats
+like Microsoft Word or PowerPoint.  In addition, their learning curve is very
+steep, and deters many potential users who have deadlines to meet or would
+rather think about engaging exercises than try to make sense of obscure error
+messages.
 
-The best tool we have today for large-scale ad hoc collaboration is version
-control.  Originally developed by programmers for managing the source code of
-large projects, it gives each contributor their own working copy of the
-material, but provides a way for them to submit changes to a central store,
-have them reviewed, make further modifications, and finally merge them into
-the core to strengthen it \cite{Blis2016}.
-
-Version control's greatest strengths are its scalability (some projects have had
-thousands of contributors) and its openness (anyone can offer changes).  Its
-greatest weakness is that widely-used systems like Git are designed to handle
-text files, and struggle with structured document formats like Microsoft Word or
-PowerPoint.  As a result, people who wish to use it for lessons usually have to
-rely on LateX or some variation of HTML or Markdown for their notes and slides,
-which is a larger barrier to uptake than many experts realize (or are willing to
-acknowledge).  If any reader wishes to be rich, famous, and popular (or at least
-popular), building tools that enable version control tools to work with popular
-office document formats would do more to help improve instructional quality than
-any number of seminars on effective practices{\ldots}
-
-Finally, one key enabler of collaborative lesson construction is licensing.  We
-strongly recommend using one of the Creative Commons family of licenses, since
-they have been carefully vetted and are widely understood.
+One key enabler of collaborative lesson construction is licensing.  We strongly
+recommend using one of the Creative Commons family of licenses, since they have
+been carefully vetted and are widely understood.
 
 \bibliography{rules}
 
