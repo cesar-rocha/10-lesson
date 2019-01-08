@@ -1,6 +1,8 @@
 # Ten Quick Tips for Creating an Effective Lesson
 
 [Greg Wilson](mailto:gvwilson@third-bit.com)
+<br>
+RStudio, Inc.
 
 ## Abstract
 
@@ -37,9 +39,7 @@ These ten simple rules for creating lessons are:
 
 The key insight that underpins all of these rules is that *learning is
 both a cognitive and a social activity*. On the cognitive side, we can
-model learning as shown in Figure 1.
-
-![A Cognitive Model of Learning (adapted from [@Maye2009])](https://github.com/gvwilson/10-lesson/blob/master/cognitive-model.pdf)
+model learning as shown in the figure below:
 
 Incoming information (the lesson) passes through a *sensory register*
 that has physically separate channels for visual and auditory
@@ -51,7 +51,7 @@ relationships are strengthened by use, they can later be recalled and
 applied, and we say that learning has taken place.
 
 One key feature of this model is that short-term memory is very limited:
-[@Mill1956] famously estimated its size as 7&plusmn;2 items, and more
+[@Mill1956] famously estimated its size as 7+/-2 items, and more
 recent studies place the figure closer to 4. If too much information is
 presented too quickly, material spills out of short-term memory before
 it can be integrated and stored, and learning does not occur.
@@ -61,15 +61,17 @@ limited. Effort spent identifying key facts or reconciling the
 linguistic and visual input streams reduces the power available for
 organizing new information and connecting it to what's already present.
 
-Learning is also a social activity. In [@Litt2004], for example, Kenneth
-Wesson wrote, "If poor inner-city children consistently outscored
-children from wealthy suburban homes on standardized tests, is anyone
-naive enough to believe that we would still insist on using these tests
-as indicators of success?" Learners who feel motivated will learn more;
-learners who feel that they may not be judged on their merits, or who
-have experienced unequal treatment in the past, will learn less, and
-lesson designers must take this into account if they are to create
-effective lessons.
+Learning is also a social activity. Learners who feel motivated will
+learn more; learners who feel that they may not be judged on their
+merits, or who have experienced unequal treatment in the past, will
+learn less (see the rule "Motivate and Avoid Demotivating"). In
+[@Litt2004], for example, Kenneth Wesson wrote, "If poor inner-city
+children consistently outscored children from wealthy suburban homes on
+standardized tests, is anyone naive enough to believe that we would
+still insist on using these tests as indicators of success?" Lesson
+designers must take the social aspects of learning into account if they
+are to create effective lessons; we discuss this further in the final
+rule ("Make Lessons Inclusive").
 
 ## 1. Use Learner Personas to Define Your Audience
 
@@ -138,7 +140,7 @@ Some learning strategies are provably more effective than others
 encourage their use. As summarized in [@Wein2018a; @Wein2018b], the six
 most important are:
 
-Spaced Practice:
+Spaced Practice
 :   Ten hours of study spread out over five days is more effective than
     two five-hour days, and far better than one ten-hour day. You should
     therefore create lessons and exercises that include some older
@@ -150,7 +152,7 @@ Spaced Practice:
     sometimes avoid exposure to material altogether until an assignment
     is nigh."
 
-Retrieval Practice:
+Retrieval Practice
 :   Researchers now believe that the limiting factor for long-term
     memory is not retention (what is stored), but recall (what can be
     accessed). Recall of specific information improves with practice, so
@@ -159,7 +161,7 @@ Retrieval Practice:
     what was and wasn't remembered. For example, [@Karp2008] found that
     repeated testing improved recall of word lists from 35% to 80%.
 
-Interleaving:
+Interleaving
 :   One way to space retrieval practice is to interleave study of
     different topics: instead of mastering one subject, then the next,
     then a third, shuffle the order. Even better, switch up the order:
@@ -168,24 +170,24 @@ Interleaving:
     fosters creation of more links between different topics, which in
     turn increases retention and recall.
 
-Elaboration:
-:   Having learners explain things to themselves as they go along
-    improves understanding and recall. One way to do this is to follow
-    up each answer on a practice quiz with an explanation of why that
-    answer is correct, or conversely with an explanation of why some
-    other plausible answer isn't. Another is to have learners explain
-    how a new idea is similar to or different from one they have seen
-    previously.
+Elaboration
+:   Having learners explain things to themselves and others as they go
+    along improves understanding and recall. One way to do this is to
+    follow up each answer on a practice quiz with an explanation of why
+    that answer is correct, or conversely with an explanation of why
+    some other plausible answer isn't. Another is to have learners
+    explain how a new idea is similar to or different from one they have
+    seen previously.
 
-Concrete Examples:
+Concrete Examples
 :   One specific form of elaboration that is useful enough to deserve
     its own heading is the use of concrete examples. As discussed in the
-    rule on concreteness fading, every statement of a general principle
-    should be accompanied by one or more examples of its use, or
-    conversely take each particular problem and list the general
-    principles it embodies. [@Raws2014] found that interleaving examples
-    and definitions made it more likely that learners would remember the
-    latter correctly.
+    rule "Use Worked Examples and Concreteness Fading", every statement
+    of a general principle should be accompanied by one or more examples
+    of its use, or conversely take each particular problem and list the
+    general principles it embodies. [@Raws2014] found that interleaving
+    examples and definitions made it more likely that learners would
+    remember the latter correctly.
 
     Another approach is to teach by contrast, i.e., to show learners
     what a solution is *not*, or what kind of problem a technique
@@ -194,14 +196,18 @@ Concrete Examples:
     simplified so that they don't become frustrated looking for answers
     that don't exist.
 
-Dual Coding:
+Dual Coding
 :   Different subsystems in our brains handle and store linguistic and
     visual information, and if complementary information is presented
     through both channels, then they can reinforce one another. However,
     learning is more effective when the same information is *not*
     presented simultaneously in two different channels
     [@Maye2003; @Maye2009], because then the brain has to expend effort
-    to check the channels against each other.
+    to check the channels against each other. This is one of the many
+    reasons that reading slides verbatim is ineffective: not only is the
+    reader not adding value, they are actually adding to the load on
+    learners whose brains are trying to check that the spoken and
+    written inputs are consistent.
 
 ## 3. Write Summative Assessments to Set Concrete Goals
 
@@ -212,7 +218,8 @@ else of that kind. Summative assessments are usually used as gates
 (e.g., "Is it now safe for this person to drive on their own?"), but
 they are also a good way to clarify the learning objectives for a
 lesson. "Understand linear regression" is hopelessly vague; a much
-better way to set the goal for a lesson is:
+better way to set the goal for that lesson would be to define an
+exercise such as:
 
 > Write a short R script that reads the tabular data in `housing.csv`
 > and uses the `lm` function to calculate a regression coefficient
@@ -240,10 +247,9 @@ these tasks may be extensions or generalizations of earlier solutions.
 Continuing with the statistical example above, calculating a regression
 coefficient may be an authentic task for someone who already knows
 enough statistics to understand what such coefficients are good for. If
-the intended learners are not yet that experienced (which you will know
-from your personas), this exercise could be extended to have them make
-some sort of judgment based on the coefficient in order to answer the
-deeper question, "Why bother?"
+the intended learners are not yet that experienced, this exercise could
+be extended to have them make some sort of judgment based on the
+regression coefficients to exercise higher-order thinking.
 
 ## 4. Write Formative Assessments for Pacing, Design, Preparation, and Reinforcement
 
@@ -258,7 +264,7 @@ confront their misconceptions about the topic being taught.
 Checking in with learners this way every 10-15 minutes accomplishes
 several things:
 
-Pacing:
+Pacing
 :   Asking, "Does everyone understand?" almost always produces false
     positives. In contrast, if any substantial fraction of your learners
     cannot do a formative assessment correctly, you know right then and
@@ -267,7 +273,7 @@ Pacing:
     that's because you will now be teaching at the speed at which your
     audience can learn rather than the speed at which you can talk.
 
-Design:
+Design
 :   Creating formative assessments that build toward a lesson's
     summative assessment gives you a structure for your lesson.
     Returning to the regression example, the summative assessment tells
@@ -277,7 +283,7 @@ Design:
     of these subjects is less intimidating than trying to explain the
     whole topic at once.
 
-Preparation:
+Preparation
 :   Formative assessments give learners practice with the concepts,
     methods, and tools they will use when doing the lesson's summative
     assessment, and tells them where to focus their revision. Switching
@@ -286,11 +292,11 @@ Preparation:
     rhythmic patterns, that tells her where she should spend her study
     time.
 
-Reinforcement:
+Reinforcement
 :   Learners remember things better if they use material right away, and
     having formative assessments during the lesson does this.
 
-Scope:
+Scope
 :   Breaking a summative assessment down into parts and creating
     formative assessments for each usually shows you that you are trying
     to cram too much into one lesson. Writing assessments is therefore
@@ -412,11 +418,10 @@ However, worked examples become less effective as learners acquire more
 expertise [@Kaly2003; @Kaly2007], a phenomenon known as the *expertise
 reversal effect*. In brief, as learners build their own mental models of
 what to do and how to do it, the detailed step-by-step breakdown of a
-worked example starts to get in the way. This again is a reason to
-develop learner personas before writing lessons, and is also the reason
-why tutorials and manual pages both need to exist: what's appropriate
-for a newcomer is frustrating for an expert, while what jogs an expert's
-memory may be incomprehensible to a novice.
+worked example starts to get in the way. This is why tutorials and
+manual pages both need to exist: what's appropriate for a newcomer is
+frustrating for an expert, while what jogs an expert's memory may be
+incomprehensible to a novice.
 
 One powerful way to use worked examples is to present a series of *faded
 examples* [@Schw2009]. The first example in the series is a complete use
@@ -426,46 +431,48 @@ to as *scaffolding*, since it serves the same purpose as the scaffolding
 set up temporarily at a building site.
 
 Faded examples can be used in almost every kind of teaching, from sport
-and music to contract law. Someone teaching Python programming might use
-them by first explaining how to calculate the total length of a list of
-words:
+and music to contract law. Someone teaching high school algebra might
+use them by first solving this equation for `x`:
 
-    # total_length(["red", "green", "blue"]) => 12
-    define total_length(list_of_words):
-        total = 0
-        for each word in list_of_words:
-            total = total + word.length()
-        return total
+```
+(4x + 8) / 2 = 5
+4x + 8       = 2 * 5
+4x + 8       = 10
+4x           = 10 - 8
+4x           = 2
+x            = 2/4
+x            = 1/2
+```
 
-and then asking learners to fill in the blanks in this (which focuses
-their attention on control structures):
+and then asking learners to fill in the blanks in this:
 
-    # word_lengths(["red", "green", "blue"]) => [3, 5, 4]
-    define word_lengths(list_of_words):
-        list_of_lengths = []
-        for each ____ in ____:
-            list_of_lengths.append(____)
-        return list_of_lengths
+```
+(3x - 1) * 3 = 12
+3x - 1       = ___/___
+3x - 1       = 4
+3x           = 4___1
+3x           = ___
+x            = ___
+```
 
-The next problem might be this (which focuses their attention on
-updating the final result):
+The next problem might be this:
 
-    # join_all(["red", "green", "blue"]) => "redgreenblue"
-    define join_all(list_of_words):
-        joined_words = ____
-        for each ____ in ____:
-            ____
-        return joined_words
+```
+(5x + 1) * 3 = 4
+5x + 1       = ___
+5x           = ___
+x            = ___
+```
 
-Learners would finally be asked to write an entire function on their
+Learners would finally be asked to solve an equation entirely on their
 own:
 
-    # make_acronym(["red", "green", "blue"]) => "RGB"
-    define make_acronym(list_of_words):
-        ____
+```
+(2x + 7) / 4 = 1
+```
 
-At each step, learners have one new problem to tackle, which is less
-intimidating than a blank screen or a blank sheet of paper. Faded
+At each step, learners have a slightly larger problem to solve, which is
+less intimidating than a blank screen or a blank sheet of paper. Faded
 examples also encourage learners (and instructors) to think about the
 similarities and differences between various approaches.
 
@@ -514,27 +521,27 @@ see, their causes, and how to correct them [@Carr2014]. When studying
 second language acquisition, [@Lyst1997] identified six ways in which
 instructors can correct learners' mistakes:
 
-Explicit correction:
+Explicit correction
 :   clearly indicating that the learner is incorrect and provide the
     correct form.
 
-Recasting:
+Recasting
 :   repeat the learner's response with the mistake or mistakes
     corrected.
 
-Clarification request:
+Clarification request
 :   indicate that the learner's answer is incorrect (e.g., by saying,
     "Are you sure?") but leave the correction open-ended.
 
-Metalinguistic clues:
+Metalinguistic clues
 :   pose leading questions (e.g., "Do we need the absolute error or the
     relative error here?")
 
-Elicitation:
+Elicitation
 :   provide the first part of the correct answer as a prompt and require
     the learner to fill in the rest.
 
-Repetition:
+Repetition
 :   repeats the learner's error, drawing attention to it but leaving the
     correction up to them.
 
@@ -596,6 +603,14 @@ more welcoming to women, under-represented racial or ethnic groups,
 people with various sexual orientations, the elderly, the physically
 challenged, the economically disadvantaged, and others.
 
+The most important step is to stop thinking in terms of a *deficit
+model*, i.e., to stop thinking that the members of marginalized groups
+lack something and are therefore responsible for not getting ahead.
+Believing that puts the burden on people who already have to work harder
+because of the inequities they face, and (not coincidentally) gives
+those who benefit from the current arrangements an excuse not to look at
+themselves too closely.
+
 One axis of inclusive lesson design is physical: provide descriptive
 text for images and videos to help the visually challenged, closed
 captions for videos to help those with hearing challenges, and so on.
@@ -614,33 +629,23 @@ Another axis is social:
 
 Committing fully to inclusive teaching may mean fundamentally rethinking
 content. For example, [@Lach2018] explored two strategies for making
-computing education more culturally inclusive:
-
-Community representation
-:   highlights students' social identities, histories, and community
-    networks using after-school mentors or role models from students'
-    neighborhoods, or activities that use community narratives and
-    histories as a foundation for a computing project.
-
-Computational integration
-:   incorporates ideas from the learner's community, e.g., reverse
-    engineering indigenous graphic designs in a visual programming
-    environment.
-
-The major risk of the community representation approach is shallowness,
+computing education more culturally inclusive, each of which has its own
+traps for the unwary. The first strategy, *community representation*,
+highlights students' social identities, histories, and community
+networks using after-school mentors or role models from students'
+neighborhoods, or activities that use community narratives and histories
+as a foundation for a computing project. The major risk is shallowness,
 e.g., using computers to build slideshows rather than do any real
-computing. The major risk with computational integration is cultural
-appropriation, e.g., using practices without acknowledging origins. When
-in doubt, ask your learners and members of their community what they
-think you ought to do and give them control over content and direction.
+computing.
 
-The most important step is to stop thinking in terms of a *deficit
-model*, i.e., to stop thinking that the members of marginalized groups
-lack something and are therefore responsible for not getting ahead.
-Believing that puts the burden on people who already have to work harder
-because of the inequities they face, and (not coincidentally) gives
-those who benefit from the current arrangements an excuse not to look at
-themselves too closely.
+The second strategy, *computational integration*, incorporates ideas
+from the learner's community, e.g., by reverse engineering indigenous
+graphic designs in a visual programming environment. The major risk here
+is cultural appropriation, e.g., using practices without acknowledging
+origins. No matter which strategy is chosen, the first steps should
+always be to ask your learners and members of their community what
+*they* think you ought to do, and to give them control over content and
+direction.
 
 ## Conclusion
 
@@ -689,83 +694,13 @@ material, improving it, and then offering their changes back to the
 community. This model has served the open source software community
 well, and as [@Deve2018] describes, it works equally well for
 lessons---provided that materials are designed to make fine-grained
-collaboration easy.
-
-The best tool we have today for large-scale ad hoc collaboration is
-version control. Originally developed by programmers for managing the
-source code of large projects, it gives each contributor their own
-working copy of the material, but provides a way for them to submit
-changes to a central store, have them reviewed, make further
-modifications, and finally merge them into the core to strengthen it
-[@Blis2016].
-
-Version control's greatest strengths are its scalability (some projects
-have had thousands of contributors) and its openness (anyone can offer
-changes). Its greatest weakness is that widely-used systems like Git are
+collaboration easy. Unfortunately, widely-used systems like Git are
 designed to handle text files, and struggle with structured document
-formats like Microsoft Word or PowerPoint. As a result, people who wish
-to use it for lessons usually have to rely on LateX or some variation of
-HTML or Markdown for their notes and slides, which is a larger barrier
-to uptake than many experts realize (or are willing to acknowledge). If
-any reader wishes to be rich, famous, and popular (or at least popular),
-building tools that enable version control tools to work with popular
-office document formats would do more to help improve instructional
-quality than any number of seminars on effective practices...
+formats like Microsoft Word or PowerPoint. In addition, their learning
+curve is very steep, and deters many potential users who have deadlines
+to meet or would rather think about engaging exercises than try to make
+sense of obscure error messages.
 
-Finally, one key enabler of collaborative lesson construction is
-licensing. We strongly recommend using one of the Creative Commons
-family of licenses, since they have been carefully vetted and are widely
-understood.
-
-## Bibliography
-
-- Ambr2010: Ambrose SA, Bridges MW, DiPietro M, Lovett MC, Norman MK. How Learning Works: Seven Research-Based Principles for Smart Teaching. Jossey-Bass; 2010.
-- Atki2000: Atkinson RK, Derry SJ, Renkl A, Wortham D. Learning from Examples: Instructional Principles from the Worked Examples Research. Review of Educational Research. 2000;70(2):181--214. doi:10.3102/00346543070002181.
-- Beck2014: Beck V. Testing a Model to Predict Online Cheating---Much Ado About Nothing. Active Learning in Higher Education. 2014;15(1):65--75. doi:10.1177/1469787413514646.
-- Bigg2011: Biggs J, Tang C. Teaching for Quality Learning at University. Open University Press; 2011.
-- Blis2016: Blischak JD, Davenport ER, Wilson G. A Quick Introduction to Version Control with Git and GitHub. PLOS Computational Biology. 2016;12(1):e1004668. doi:10.1371/journal.pcbi.1004668. 
-- Broo2016: Brookfield SD, Preskill S. The Discussion Book: 50 Great Ways to Get People Talking. Jossey-Bass; 2016.
-- Brow2018: Brown NCC, Wilson G. Ten Quick Tips for Teaching Programming. PLoS Computational Biology. 2018;14(4). doi:10.1371/journal.pcbi.1006023.
-- Carr2014: Carroll J. Creating Minimalist Instruction. International Journal of Designs for Learning. 2014;5(2). doi:10.14434/ijdl.v5i2.12887.
-- Crou2001: Crouch CH, Mazur E. Peer Instruction: Ten Years of Experience and Results. American Journal of Physics. 2001;69(9):970--977. doi:10.1119/1.1374249.
-- DeBr2015: Bruyckere PD, Kirschner PA, Hulshof CD. Urban Myths about Learning and Education. Academic Press; 2015.
-- Deve2018: Devenyi GA, Emonet R, Harris RM, Hertweck KL, Irving D, Milligan I, et~al. Ten Simple Rules for Collaborative Lesson Development. PLOS Computational Biology. 2018;14(3). doi:10.1371/journal.pcbi.1005963.
-- Dida2016: Didau D, Rose N. What Every Teacher Needs to Know About Psychology. John Catt Educational; 2016.
-- Fink2013: Fink LD. Creating Significant Learning Experiences: An Integrated Approach to Designing College Courses. Jossey-Bass; 2013.
-- Fyfe2014: Fyfe ER, McNeil NM, Son JY, Goldstone RL. Concreteness Fading in Mathematics and Science Instruction: a Systematic Review. Educational Psychology Review. 2014;26(1):9--25. doi:10.1007/s10648-014-9249-3.
-- Gold2005: Goldstone RL, Son JY. The Transfer of Scientific Principles Using Concrete and Idealized Simulations. Journal of the Learning Sciences. 2005;14(1):69--110. doi:10.1207/s15327809jls1401\_4.
-- Hust2012: Huston T. Teaching What You Don't Know. Harvard University Press; 2012.
-- Kaly2003: Kalyuga S, Ayres P, Chandler P, Sweller J. The Expertise Reversal Effect. Educational Psychologist. 2003;38(1):23--31. doi:10.1207/s15326985ep3801\_4.
-- Kaly2007: Kalyuga S. Expertise Reversal Effect and Its Implications for Learner-Tailored Instruction. Educational Psychology Review. 2007;19(4):509--539. doi:10.1007/s10648-007-9054-3.
-- Kang2016: Kang SHK. Spaced Repetition Promotes Efficient and Effective Learning. Policy Insights from the Behavioral and Brain Sciences. 2016;3(1):12--19. doi:10.1177/2372732215624708.
-- Karp2008: Karpicke JD, Roediger HL. The Critical Importance of Retrieval for Learning. Science. 2008;319(5865):966--968. doi:10.1126/science.1152408.
-- Lach2018: Lachney M. Computational Communities: African-American Cultural Capital in Computer Science Education. Computer Science Education. 2018; p. 1--22. doi:10.1080/08993408.2018.1429062.
-- Lang2013: Lang JM. Cheating Lessons: Learning from Academic Dishonesty. Harvard University Press; 2013.
-- Lang2016: Lang JM. Small Teaching: Everyday Lessons from the Science of Learning. Jossey-Bass; 2016.
-- Litt2004: Littky D. The Big Picture: Education Is Everyone's Business. Association for Supervision \& Curriculum Development (ASCD); 2004.
-- Lyst1997: Lyster R, Ranta L. Corrective Feedback and Learner Uptake: Negotiation of Form in Communicative Classrooms. Studies in Second Language Acquisition. 1997;19(1):37--66.
-- Majo2015: Major CH, Harris MS, Zakrajsek T. Teaching for Learning: 101 Intentionally Designed Educational Activities to Put Students on the Path to Success. Routledge; 2015.
-- Mark2018: Markovits RA, Weinstein Y. Can Cognitive Processes Help Explain the Success of Instructional Techniques Recommended by Behavior Analysts? NPJ Science of Learning. 2018;3(1). doi:10.1038/s41539-017-0018-1.
-- Maye2003: Mayer RE, Moreno R. Nine Ways to Reduce Cognitive Load in Multimedia Learning. Educational Psychologist. 2003;38(1):43--52. doi:10.1207/s15326985ep3801\_6.
-- Maye2009: Mayer RE. Multimedia Learning. 2nd ed. Cambridge University Press; 2009.
-- Metc2016: Metcalfe J. Learning from Errors. Annual Review of Psychology. 2016;68(1):465--489. doi:10.1146/annurev-psych-010416-044022.
-- Mill1956: Miller GA. The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information. Psychological Review. 1956;63(2):81--97. doi:10.1037/h0043158.
-- Mill2016: Miller MD. Minds Online: Teaching Effectively with Technology. Harvard University Press; 2016.
-- Miya2018: Miyatsu T, Nguyen K, McDaniel MA. Five Popular Study Strategies: Their Pitfalls and Optimal Implementations. Perspectives on Psychological Science. 2018;13(3):390--407. doi:10.1177/1745691617710510.
-- Nuth2007: Nuthall G. The Hidden Lives of Learners. NZCER Press; 2007.
-- Paas2003: Paas F, Renkl A, Sweller J. Cognitive Load Theory and Instructional Design: Recent Developments. Educational Psychologist. 2003;38(1):1--4. doi:10.1207/s15326985ep3801\_1.
-- Pars2006: Parsons D, Haden P. Parson's Programming Puzzles: A Fun and Effective Learning Tool for First Programming Courses. In: Proc.\ 2006 Australasian Conference on Computing Education (ACE'06). Australian Computer Society; 2006. p. 157--163.
-- Port2016: Porter L, Bouvier D, Cutts Q, Grissom S, Lee CB, McCartney R, et~al. A Multi-Institutional Study of Peer Instruction in Introductory Computing. In: Proc.\ 2016 Technical Symposium on Computer Science Education (SIGCSE'16). Association for Computing Machinery (ACM); 2016.
-- Raws2014: Rawson KA, Thomas RC, Jacoby LL. The Power of Examples: Illustrative Examples Enhance Conceptual Learning of Declarative Concepts. Educational Psychology Review. 2014;27(3):483--504. doi:10.1007/s10648-014-9273-3.
-- Rice2018: Rice GT. Hitting Pause: 65 Lecture Breaks to Refresh and Reinforce Learning. Stylus Publishing; 2018.
-- Rohr2015: Rohrer D, Dedrick RF, Stershic S. Interleaved Practice Improves Mathematics Learning. Journal of Educational Psychology. 2015;107(3):900--908. doi:10.1037/edu0000001.
-- Schw2009: Schwonke R, Renkl A, Krieg C, Wittwer J, Aleven V, Salden R. The worked-example effect: Not an artefact of lousy control conditions. Computers in Human Behavior. 2009;25(2):258--266. doi:10.1016/j.chb.2008.12.011.
-- Smit2009: Smith MK, Wood WB, Adams WK, Wieman CE, Knight JK, Guild N, et~al. Why Peer Discussion Improves Student Performance on In-class Concept Questions. Science. 2009;323(5910):122--124. doi:10.1126/science.1165919.
-- Vick2015: Vickrey T, Rosploch K, Rahmanian R, Pilarz M, Stains M. Research-Based Implementation of Peer Instruction: A Literature Review. CBE--Life Sciences Education. 2015;14(1). doi:10.1187/cbe.14-11-0198.
-- Wein2018a: Weinstein Y, Madan CR, Sumeracki MA. Teaching the Science of Learning. Cognitive Research: Principles and Implications. 2018;3(1). doi:10.1186/s41235-017-0087-y.
-- Wein2018b: Weinstein Y, Sumeracki M, Caviglioli O. Understanding How We Learn: A Visual Guide. Routledge; 2018.
-- Wigg2005: Wiggins G, McTighe J. Understanding by Design. Association for Supervision \& Curriculum Development (ASCD); 2005.
-- Wilk2011: Wilkinson R, Pickett K. The Spirit Level: Why Greater Equality Makes Societies Stronger. Bloomsbury Press; 2011.
-- Wils2016: Wilson G. Software Carpentry: Lessons Learned. F1000Research. 2016;doi:10.12688/f1000research.3-62.v2.
-- Wils2018: Wilson G. Teaching Tech Together. Lulu; 2018.
-- Wlod2017: Wlodkowski RJ, Ginsberg MB. Enhancing Adult Motivation to Learn: A Comprehensive Guide for Teaching All Adults. Jossey-Bass; 2017.
+One key enabler of collaborative lesson construction is licensing. We
+strongly recommend using one of the Creative Commons family of licenses,
+since they have been carefully vetted and are widely understood.
