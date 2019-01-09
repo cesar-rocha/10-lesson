@@ -38,17 +38,15 @@ These ten simple rules for creating lessons are:
     together [@Deve2018; @Wils2016; @Wils2018].
 
 The key insight that underpins all of these rules is that *learning is
-both a cognitive and a social activity*. On the cognitive side, we can
-model learning as shown in the figure below:
-
-Incoming information (the lesson) passes through a *sensory register*
-that has physically separate channels for visual and auditory
-information and is stored in *short-term memory*, where it is used to
-construct a *verbal model* (sometimes also called a *linguistic model*)
-and a separate *visual model*. These are then integrated and stored in
-*long-term memory* as facts and relationships. If those facts and
-relationships are strengthened by use, they can later be recalled and
-applied, and we say that learning has taken place.
+both a cognitive and a social activity*. On the cognitive side, incoming
+information (the lesson) passes through a *sensory register* that has
+physically separate channels for visual and auditory information and is
+stored in *short-term memory*, where it is used to construct a *verbal
+model* (sometimes also called a *linguistic model*) and a separate
+*visual model* [@Maye2009]. These are then integrated and stored in *long-term memory*
+as facts and relationships. If those facts and relationships are
+strengthened by use, they can later be recalled and applied, and we say
+that learning has taken place.
 
 One key feature of this model is that short-term memory is very limited:
 [@Mill1956] famously estimated its size as 7+/-2 items, and more
@@ -721,29 +719,29 @@ since they have been carefully vetted and are widely understood.
 - Dida2016: Didau D, Rose N. What Every Teacher Needs to Know About Psychology. John Catt Educational; 2016.
 - Fink2013: Fink LD. Creating Significant Learning Experiences: An Integrated Approach to Designing College Courses. Jossey-Bass; 2013.
 - Fyfe2014: Fyfe ER, McNeil NM, Son JY, Goldstone RL. Concreteness Fading in Mathematics and Science Instruction: a Systematic Review. Educational Psychology Review. 2014;26(1):9--25. doi:10.1007/s10648-014-9249-3.
-- Gold2005: Goldstone RL, Son JY. The Transfer of Scientific Principles Using Concrete and Idealized Simulations. Journal of the Learning Sciences. 2005;14(1):69--110. doi:10.1207/s15327809jls1401\_4.
+- Gold2005: Goldstone RL, Son JY. The Transfer of Scientific Principles Using Concrete and Idealized Simulations. Journal of the Learning Sciences. 2005;14(1):69--110. doi:10.1207/s15327809jls1401_4.
 - Hust2012: Huston T. Teaching What You Don't Know. Harvard University Press; 2012.
-- Kaly2003: Kalyuga S, Ayres P, Chandler P, Sweller J. The Expertise Reversal Effect. Educational Psychologist. 2003;38(1):23--31. doi:10.1207/s15326985ep3801\_4.
+- Kaly2003: Kalyuga S, Ayres P, Chandler P, Sweller J. The Expertise Reversal Effect. Educational Psychologist. 2003;38(1):23--31. doi:10.1207/s15326985ep3801_4.
 - Kaly2007: Kalyuga S. Expertise Reversal Effect and Its Implications for Learner-Tailored Instruction. Educational Psychology Review. 2007;19(4):509--539. doi:10.1007/s10648-007-9054-3.
 - Kang2016: Kang SHK. Spaced Repetition Promotes Efficient and Effective Learning. Policy Insights from the Behavioral and Brain Sciences. 2016;3(1):12--19. doi:10.1177/2372732215624708.
 - Karp2008: Karpicke JD, Roediger HL. The Critical Importance of Retrieval for Learning. Science. 2008;319(5865):966--968. doi:10.1126/science.1152408.
 - Lach2018: Lachney M. Computational Communities: African-American Cultural Capital in Computer Science Education. Computer Science Education. 2018; p. 1--22. doi:10.1080/08993408.2018.1429062.
 - Lang2013: Lang JM. Cheating Lessons: Learning from Academic Dishonesty. Harvard University Press; 2013.
 - Lang2016: Lang JM. Small Teaching: Everyday Lessons from the Science of Learning. Jossey-Bass; 2016.
-- Litt2004: Littky D. The Big Picture: Education Is Everyone's Business. Association for Supervision \& Curriculum Development (ASCD); 2004.
+- Litt2004: Littky D. The Big Picture: Education Is Everyone's Business. Association for Supervision & Curriculum Development (ASCD); 2004.
 - Lyst1997: Lyster R, Ranta L. Corrective Feedback and Learner Uptake: Negotiation of Form in Communicative Classrooms. Studies in Second Language Acquisition. 1997;19(1):37--66.
 - Majo2015: Major CH, Harris MS, Zakrajsek T. Teaching for Learning: 101 Intentionally Designed Educational Activities to Put Students on the Path to Success. Routledge; 2015.
 - Mark2018: Markovits RA, Weinstein Y. Can Cognitive Processes Help Explain the Success of Instructional Techniques Recommended by Behavior Analysts? NPJ Science of Learning. 2018;3(1). doi:10.1038/s41539-017-0018-1.
-- Maye2003: Mayer RE, Moreno R. Nine Ways to Reduce Cognitive Load in Multimedia Learning. Educational Psychologist. 2003;38(1):43--52. doi:10.1207/s15326985ep3801\_6.
+- Maye2003: Mayer RE, Moreno R. Nine Ways to Reduce Cognitive Load in Multimedia Learning. Educational Psychologist. 2003;38(1):43--52. doi:10.1207/s15326985ep3801_6.
 - Maye2009: Mayer RE. Multimedia Learning. 2nd ed. Cambridge University Press; 2009.
 - Metc2016: Metcalfe J. Learning from Errors. Annual Review of Psychology. 2016;68(1):465--489. doi:10.1146/annurev-psych-010416-044022.
 - Mill1956: Miller GA. The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information. Psychological Review. 1956;63(2):81--97. doi:10.1037/h0043158.
 - Mill2016: Miller MD. Minds Online: Teaching Effectively with Technology. Harvard University Press; 2016.
 - Miya2018: Miyatsu T, Nguyen K, McDaniel MA. Five Popular Study Strategies: Their Pitfalls and Optimal Implementations. Perspectives on Psychological Science. 2018;13(3):390--407. doi:10.1177/1745691617710510.
 - Nuth2007: Nuthall G. The Hidden Lives of Learners. NZCER Press; 2007.
-- Paas2003: Paas F, Renkl A, Sweller J. Cognitive Load Theory and Instructional Design: Recent Developments. Educational Psychologist. 2003;38(1):1--4. doi:10.1207/s15326985ep3801\_1.
-- Pars2006: Parsons D, Haden P. Parson's Programming Puzzles: A Fun and Effective Learning Tool for First Programming Courses. In: Proc.\ 2006 Australasian Conference on Computing Education (ACE'06). Australian Computer Society; 2006. p. 157--163.
-- Port2016: Porter L, Bouvier D, Cutts Q, Grissom S, Lee CB, McCartney R, et~al. A Multi-Institutional Study of Peer Instruction in Introductory Computing. In: Proc.\ 2016 Technical Symposium on Computer Science Education (SIGCSE'16). Association for Computing Machinery (ACM); 2016.
+- Paas2003: Paas F, Renkl A, Sweller J. Cognitive Load Theory and Instructional Design: Recent Developments. Educational Psychologist. 2003;38(1):1--4. doi:10.1207/s15326985ep3801_1.
+- Pars2006: Parsons D, Haden P. Parson's Programming Puzzles: A Fun and Effective Learning Tool for First Programming Courses. In: Proc. 2006 Australasian Conference on Computing Education (ACE'06). Australian Computer Society; 2006. p. 157--163.
+- Port2016: Porter L, Bouvier D, Cutts Q, Grissom S, Lee CB, McCartney R, et~al. A Multi-Institutional Study of Peer Instruction in Introductory Computing. In: Proc. 2016 Technical Symposium on Computer Science Education (SIGCSE'16). Association for Computing Machinery (ACM); 2016.
 - Raws2014: Rawson KA, Thomas RC, Jacoby LL. The Power of Examples: Illustrative Examples Enhance Conceptual Learning of Declarative Concepts. Educational Psychology Review. 2014;27(3):483--504. doi:10.1007/s10648-014-9273-3.
 - Rice2018: Rice GT. Hitting Pause: 65 Lecture Breaks to Refresh and Reinforce Learning. Stylus Publishing; 2018.
 - Rohr2015: Rohrer D, Dedrick RF, Stershic S. Interleaved Practice Improves Mathematics Learning. Journal of Educational Psychology. 2015;107(3):900--908. doi:10.1037/edu0000001.
@@ -752,7 +750,7 @@ since they have been carefully vetted and are widely understood.
 - Vick2015: Vickrey T, Rosploch K, Rahmanian R, Pilarz M, Stains M. Research-Based Implementation of Peer Instruction: A Literature Review. CBE--Life Sciences Education. 2015;14(1). doi:10.1187/cbe.14-11-0198.
 - Wein2018a: Weinstein Y, Madan CR, Sumeracki MA. Teaching the Science of Learning. Cognitive Research: Principles and Implications. 2018;3(1). doi:10.1186/s41235-017-0087-y.
 - Wein2018b: Weinstein Y, Sumeracki M, Caviglioli O. Understanding How We Learn: A Visual Guide. Routledge; 2018.
-- Wigg2005: Wiggins G, McTighe J. Understanding by Design. Association for Supervision \& Curriculum Development (ASCD); 2005.
+- Wigg2005: Wiggins G, McTighe J. Understanding by Design. Association for Supervision & Curriculum Development (ASCD); 2005.
 - Wilk2011: Wilkinson R, Pickett K. The Spirit Level: Why Greater Equality Makes Societies Stronger. Bloomsbury Press; 2011.
 - Wils2016: Wilson G. Software Carpentry: Lessons Learned. F1000Research. 2016;doi:10.12688/f1000research.3-62.v2.
 - Wils2018: Wilson G. Teaching Tech Together. Lulu; 2018.
