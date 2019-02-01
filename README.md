@@ -6,7 +6,7 @@ RStudio, Inc.
 
 ## Abstract
 
-We present ten rules for building effective lessons that are grounded in
+We present ten tips for building effective lessons that are grounded in
 empirical research on pedagogy and cognitive psychology, and which we
 have found to be practically useful in both classroom and free-range
 settings.
@@ -18,7 +18,7 @@ public health, but most people who teach at the post-secondary level are
 never introduced to even the basics of evidence-based pedagogy. Knowing
 just a few key facts will help you build more effective lessons in less
 time and with less pain, and will also make those lessons easier for
-your peers to find and re-use. This paper presents ten rules that you
+your peers to find and re-use. This paper presents ten tips that you
 can apply immediately and explains why they work.
 
 ## Introduction
@@ -26,7 +26,7 @@ can apply immediately and explains why they work.
 There are many kinds of lessons, both formal and informal, from seconds
 long to lifelong. Most people have sat (or suffered) through hundreds of
 these, but have never been shown how to design ones that are effective.
-These ten simple rules for creating lessons are:
+These ten simple tips for creating lessons are:
 
 -   based on current educational research
     [@Nuth2007; @Ambr2010; @DeBr2015; @Dida2016; @Brow2018; @Mark2018],
@@ -37,7 +37,7 @@ These ten simple rules for creating lessons are:
 -   prioritized by experience teaching and training people to teach
     together [@Deve2018; @Wils2016; @Wils2018].
 
-The key insight that underpins all of these rules is that *learning is
+The key insight that underpins all of these tips is that *learning is
 both a cognitive and a social activity*. On the cognitive side, incoming
 information (the lesson) passes through a *sensory register* that has
 physically separate channels for visual and auditory information and is
@@ -62,14 +62,14 @@ organizing new information and connecting it to what's already present.
 Learning is also a social activity. Learners who feel motivated will
 learn more; learners who feel that they may not be judged on their
 merits, or who have experienced unequal treatment in the past, will
-learn less (see the rule "Motivate and Avoid Demotivating"). In
+learn less (see the tip "Motivate and Avoid Demotivating"). In
 [@Litt2004], for example, Kenneth Wesson wrote, "If poor inner-city
 children consistently outscored children from wealthy suburban homes on
 standardized tests, is anyone naive enough to believe that we would
 still insist on using these tests as indicators of success?" Lesson
 designers must take the social aspects of learning into account if they
 are to create effective lessons; we discuss this further in the final
-rule ("Make Lessons Inclusive").
+tip ("Make Lessons Inclusive").
 
 ## 1. Use Learner Personas to Define Your Audience
 
@@ -125,7 +125,7 @@ design issues: when speaking with each other, teachers can say, "Would
 Jorge understand why we're doing this?" or, "What installation problems
 would Jorge face?"
 
-Personas help you remember one of the most important rules of teaching:
+Personas help you remember one of the most important tips of teaching:
 *you are not your learners*. The people you teach will almost always
 have different backgrounds, different capabilities, and different
 ambitions than you; personas help you keep your lessons focused on what
@@ -180,7 +180,7 @@ Elaboration
 Concrete Examples
 :   One specific form of elaboration that is useful enough to deserve
     its own heading is the use of concrete examples. As discussed in the
-    rule "Use Worked Examples and Concreteness Fading", every statement
+    tip "Use Worked Examples and Concreteness Fading", every statement
     of a general principle should be accompanied by one or more examples
     of its use, or conversely take each particular problem and list the
     general principles it embodies. [@Raws2014] found that interleaving
@@ -647,7 +647,7 @@ direction.
 
 ## Conclusion
 
-Following the ten rules laid out above doesn't guarantee that your
+Following the ten tips laid out above doesn't guarantee that your
 lessons will be great, but it will help ensure that they aren't bad.
 When it comes time to put them into practice, we recommend following
 something like the reverse design process developed independently by
