@@ -1,6 +1,6 @@
 LATEX=pdflatex
 BIBTEX=bibtex
-STEM=rules
+STEM=wilson-lesson-tips
 
 all : commands
 
